@@ -11,6 +11,5 @@ my vim config
 ## How to ?
 
 ```sh
-sh -c "$(curl -fsSL https://MY_REPO)"
-
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/sebaplaza/my-vim/main/install.sh)"
 ```
