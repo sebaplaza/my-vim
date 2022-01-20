@@ -37,6 +37,8 @@ set hidden
 nnoremap <leader>a :bprev<CR>
 nnoremap <leader>d :bnext<CR>
 
+" switch terminal mode with Esc
+tnoremap <Esc> <C-\><C-n>
 " jj is like Esc in insert mode
 inoremap jj <esc>
 " Command with space
