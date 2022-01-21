@@ -37,8 +37,12 @@ set hidden
 nnoremap <leader>a :bprev<CR>
 nnoremap <leader>d :bnext<CR>
 
+" Keymaps
+
 " switch terminal mode with Esc
 tnoremap <Esc> <C-\><C-n>
+" Add current jira number to editor
+nnoremap <leader>ji :read !git jira<CR>
 " jj is like Esc in insert mode
 inoremap jj <esc>
 " Command with space
