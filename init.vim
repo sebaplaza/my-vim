@@ -42,7 +42,9 @@ nnoremap <leader>d :bnext<CR>
 
 " color scheme
 colorscheme nord
-let g:vim_monokai_tasty_italic = 1                    " allow italics, set this before the colorscheme
+let g:lightline = {
+      \ 'colorscheme': 'nord',
+      \ }
 " Optional themes for airline/lightline
 
 " Keymaps
