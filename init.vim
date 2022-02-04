@@ -43,7 +43,7 @@ nnoremap <leader>d :bnext<CR>
 " color scheme
 colorscheme nord
 let g:lightline = {
-      \ 'colorscheme': 'nord',
+      \ 'colorscheme': 'darcula',
       \ }
 " Optional themes for airline/lightline
 
