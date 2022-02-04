@@ -19,7 +19,10 @@ Plug 'elzr/vim-json'
 Plug 'machakann/vim-highlightedyank'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'ap/vim-buftabline'
+Plug 'elzr/vim-json'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'arcticicestudio/nord-vim'
+Plug 'vim-test/vim-test'
 call plug#end()
 
 " Ale autofixers
@@ -37,8 +40,12 @@ set hidden
 nnoremap <leader>a :bprev<CR>
 nnoremap <leader>d :bnext<CR>
 
-" Keymaps
+" color scheme
+colorscheme nord
+let g:vim_monokai_tasty_italic = 1                    " allow italics, set this before the colorscheme
+" Optional themes for airline/lightline
 
+" Keymaps
 " switch terminal mode with Esc
 tnoremap <Esc> <C-\><C-n>
 " Add current jira number to editor
@@ -67,8 +74,6 @@ set clipboard=unnamedplus
 noremap <S-l> gt
 noremap <S-h> gT
 
-" color scheme
-" colo darkblue
 
 " turn hybrid line numbers on
 set number relativenumber
